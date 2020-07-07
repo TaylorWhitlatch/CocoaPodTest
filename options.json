@@ -2,7 +2,7 @@
   "menu": {
     "item": "{{#levelRepeat}}  {{/levelRepeat}}* [{{{title}}}]({{{link}}})\n",
     "category": "{{#levelRepeat}}  {{/levelRepeat}}* {{#link}}[{{{title}}}]({{{link}}}){{/link}}{{^link}}{{{title}}}{{/link}}\n{{{subitems}}}",
-    "category-1": "{{{subitems}}}\n"
+    "category-1": "y$s{{{subitems}}}\n"
   },
   "rules": {
     "exclude": [],
@@ -10,8 +10,8 @@
       "Home.md"
     ]
   },
-  "separator": "Test",
-  "linkTemplate": "./%s",
+  "separator": "Tester",
+  "linkTemplate": "%s",
   "menuFile": "_Sidebar.md",
   "multilang": false,
   "menuOnly": true
